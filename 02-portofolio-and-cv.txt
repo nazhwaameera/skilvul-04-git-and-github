@@ -1,0 +1,49 @@
+1. Membuat sebuah folder kosong dengan namamu sendiri
+	mkdir 'Nazhwa Ameera'
+	cd 'Nazhwa Ameera'
+2. Membuat sebuah file dengan nama README.md, isi file tersebut dengan kalimat
+	"Halo perkenalkan aku halaman utama"
+	touch README.md
+	echo "Halo perkenalkan aku halaman utama\n" >> README.md
+3. Insialisasi folder tersebut dengan Git, kemudian dokumentasikan menggunakan commit dengan pesan
+	"Inisialisasi Git Repository"
+	git init
+	git add README.md
+	git commit -m "Inisialisasi Git Repository"
+4. Buat branch baru dengan nama cv, hal ini berguna agar histori kita tidak tercampur
+	git branch cv
+5. Pindah branch kedalam cv, kemudian buat file dengan nama cv.txt dan isi file tersebut dengan kalimat: "Ini adalah file CV"
+	git checkout cv
+	touch cv.txt
+	echo "Ini adalah file CV" >> cv.txt
+6. Kemudian dokumentasikan menggunakan commit dengan pesan "Inisialisasi CV"
+	git add cv.txt
+	git commit -m "Inisialisasi CV"
+7. Tambahkan 3 perusahaan yang akan kamu lamar, dan setiap menuliskan 1 nama perusahaan kamu harus melakukan dokumentasi menggunakan commit
+	echo "1. Microsoft" >> cv.txt
+	git add cv.txt
+	git commit -m "Update CV"
+
+	echo "2. IBM" >> cv.txt
+	git add cv.txt
+	git commit -m "Update CV"
+
+	echo "1. National Geographic" >> cv.txt
+	git add cv.txt
+	git commit -m "Update CV"
+8. Kembali ke branch master
+	git checkout master
+9. Ubah file README.md menjadi
+	Halo perkenalkan aku halaman utama
+
+	Ini adalah update pertama pada branch master
+	Jangan lupa untuk mendokumentasikannya menggunakan commit dengan pesan "update master pertama"
+	echo "\nIni adalah update pertama pada branch master\n" >> README.md	
+	git add README.md
+	git commit -m "Update master pertama"
+10.Gabungkan branch cv kedalam branch master menggunakan perintah git merge
+	git merge cv
+11.Unggah Git Repository tersebut kedalam GitHub
+	git remote add origin https://github.com/nazhwaameera/skilvul-04-02.git
+	git branch -M master
+	git push --set-upstream origin master
