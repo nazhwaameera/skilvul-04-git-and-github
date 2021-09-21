@@ -1,5 +1,5 @@
 1. Fork repository GitHub https://github.com/impactbyte/tech4impact-students-bio.git menggunakan akun Github kamu
-	
+	![04-05-1](https://user-images.githubusercontent.com/68385532/134190122-0dcc2cc0-4ab0-493f-ae2b-1750de5437b7.png)
 2. Clone remote repository dari hasil fork tersebut. Jangan clone dari repository originalnya.
 	git clone https://github.com/impactbyte/tech4impact-students-bio
 3. Buatlah branch baru dengan nama lengkap kamu. Misalnya david-winalda. Jangan melakukan perubahan pada branch master.
@@ -12,7 +12,7 @@
 	Nama Lengkap: David Winalda
 	Umur: 27
 	Pesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang
-
+	![04-05-6](https://user-images.githubusercontent.com/68385532/134190132-489881f7-835a-4d26-b818-3e9efe9935ab.png)
 7. Masukkan file .md tersebut ke dalam staging area
 	git add nazhwaameera.md
 8. Commit dengan memberikan pesan nama file .md kamu
@@ -23,3 +23,4 @@
 10.Push ke dalam branch master
 	git push
 11.Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch master pada GitHub Repository aslinya.
+	![04-05-11](https://user-images.githubusercontent.com/68385532/134190139-f92a88b1-78da-4687-b2bb-1f1c400a1bdd.png)
